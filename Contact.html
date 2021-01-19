@@ -38,39 +38,44 @@
         </div>
       </nav>
       <div class="container">
-          <div class="row">
-              <div class="col-md-8">
-                  <div class="page-header">
-                      <h1>About Me</h1>
-
-                  </div>
-                  <div class="row">
-                      <div class="col-md-3">
-                        <img src="https://scontent.fbna1-1.fna.fbcdn.net/v/t1.0-0/p370x247/68347728_10156251453071361_7295207389131702272_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=9A2RZNiNBSsAX_r9pZV&_nc_ht=scontent.fbna1-1.fna&_nc_tp=6&oh=6cf1ab481afa0faecaf342802c0465c0&oe=5F5BB2F2" alt="Placeholder" class="img-thumbnail">
-                        
-
-                      </div>
-                      <div class="col-md-9">
-                          <p>My name is Gina Dannibale. I am looking to pursue new career options. I am currently working for CHS as a HRIS Analyst. I hope to complete this course with a new understanding of web development. 
-                        </p>
-
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="car-mt-2">
-                    <div class="card-body">
-                        <h5 class="card-title">Gina Dannibale</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">HRIS Analyst</h6>
-                        <p class="card-text">I work for a payroll company and do the of back end IT troubleshooting. I also do reporting and issue security access.</p>
-                        <a href="https://www.linkedin.com/feed/">Linked In</a>
-                        
-
-                  </div>
-              </div>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
           </div>
+          <div class="form-group col-md-6">
+            <label for="inputPhonenumber">Phone Number</label>
+            <input type="text" class="form-control" id="inputPhonenumber">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
       </div>
-
-
 </body>
 </html>
